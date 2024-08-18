@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.announcement {
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+   text-align: center;
+   font-size: 18px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-between; /* Space between items */
+    position: relative;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: blue; /* Logo color */
+    text-decoration: none;
+}
+
+.nav-menu2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-menu2 ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.nav-menu2 ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu2 ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.nav-menu2 ul li a:hover {
+    color: white;
+    background-color: darkgrey;
+}
+
+.TrendingProduct{
+    color: blue;
+    font-size: 30px;
+    border: 50px;
+}
+.customer  {
+    text-align: center;
+}
+
+.grab {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    padding: 30px;
+}
+
+
+.container{
+    background-color: blue;
+    color: white;
+}
+.get{
+    text-align: center;
+    color: #888;
+    padding: 10px;
+}
+
+#email {
+    padding: 10px 20px;
+    border-radius: 25px; 
+    border: none;
+    width: 300px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    justify-content:center;
+    place-content: center;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+input::placeholder {
+    text-align: left; /* Ensures the placeholder text is aligned to the left */
+    color: #888;      /* Optional: Customize placeholder color */
+}
+
+
+/* footer styling */
+.buttom {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.buttom ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.buttom ul li {
+    display: block;
+    padding: 100px 0;
+    color: #888;
+    text-align: center;
+    transition: color 0.3s ease;
+    background-color: blue;
+
+}
