@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#banner-alert{
+    color: white;
+    background: #ff5d73;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 16px;
+}
