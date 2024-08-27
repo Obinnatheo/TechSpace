@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#banner-alert{
+    color: white;
+    background: #F77F00;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-main {
+    font-family: "Lato", sans-serif;
+}
+
+.TrendingProduct {
+    color: #1D1F1E;
+}
+
+.footer-main,
+.subscription {
+    font-family: "Roboto", sans-serif;
+    background: #003049;
+}
