@@ -1,44 +1,116 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* Universal styling reset  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Font styling embeded code  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-body{
-    font-family: "Roboto", sans-serif;
+/* Styling for the banner display */
+.banner-display {
+  color: white;
+  background: #0d21a1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 18px;
+  font-family: "Montserrat", sans-serif;
 }
 
-#banner-alert{
-    color: white;
-    background: #F77F00;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 16px;
-    font-family: "Montserrat", sans-serif;
+/*Font styling for the body */
+body {
+  font-family: "Roboto", sans-serif;
+  background: #eff0f5;
 }
 
-.nav-main {
-    font-family: "Lato", sans-serif;
-    text-align: center;
+/* Main Header styling */
+.main-header {
+  padding: 16px 16px;
+  width: 100%;
+  border-bottom: 1px solid rgb(198, 191, 191);
 }
 
-.nav-main__list{
-    display: inline-block;
-    /* padding: 0 16px; */
-    margin: 0 8px;
+/* Logo Styling */
+.main-header > div {
+  display: inline-block;
+  margin-left: 80px;
+}
+
+.main-brand__logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 60px;
+  color: rgb(14, 27, 77);
+  vertical-align: middle;
+}
+
+/* Navigation link styling  */
+.main-nav {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  width: calc(100% - 365px);
+}
+
+/* navlink styling */
+.main-nav__lists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling of the link anchor tags */
+.main-nav__list {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__lists a {
+  text-decoration: none;
+  color: rgb(14, 27, 77);
+  padding: 8px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.media-links {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.media-link {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: #0d21a1;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 20px 0;
 }
 
 .TrendingProduct {
-    color: #1D1F1E;
+  color: #0d21a1;
+  font-size: 32px;
+  padding: 12px;
 }
 
-.footer-main,
-.subscription {
-    font-family: "Roboto", sans-serif;
-    background: #003049;
-    text-align: center;
+.product-gallery {
+  background: white;
+  margin: 8px;
+  display: inline-block;
+}
 
+.apple {
+  background: #011638;
+}
+
+.section-title {
+  color: white;
+}
+
+img {
+  width: 250px;
 }
