@@ -1,6 +1,7 @@
-# TechSpace is the best
+# TechSpace
 
-## COLOR HEX CODE 
+## COLOR HEX CODE
+
 -- BANNER [ #F77F00]
 -- TITLE HEADING [ #1D1F1E ]
 -- BACKGROUND MAC BOOK [ #1D1F1E ]
