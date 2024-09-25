@@ -1,21 +1,17 @@
-# Unlocking the Future of Gadgets
+# TechSpace Unlocking the Future of Gadgets
 
-## COLOR HEX CODE
+## Table of contents
+-- Overview
+-- The challenge
+-- Screenshot
+-- Links
+-- Built with
+-- What I learned
+-- Continued development
+-- Useful resources
+-- Author
+-- Acknowledgments
 
--- BANNER [ #F77F00]
--- TITLE HEADING [ #1D1F1E ]
--- BACKGROUND MAC BOOK [ #1D1F1E ]
--- FOOTER [ #003049 ]
-can you see this
 
-banner #4770db
-body #eff0f5
-div #ffffff
-div #0e1b4d
-heading #eff0f5
-heading2 #0e1b4d
-button #4770db
-heading3 #0e1b4d
-#111111
-#fafafa
-#0e1b4d
+##Overview
+The Tech Gadget Store is an online platform for selling smartphones and accessories, focusing on a user-friendly experience, secure transactions, and strong customer support. Key features include a responsive design, product filtering, user reviews, and inventory management. The technology stack consists of HTML, CSS, JavaScript, Node.js for the backend, and MongoDB or PostgreSQL for the database. The aim is to create a reliable shopping destination for tech enthusiasts.
