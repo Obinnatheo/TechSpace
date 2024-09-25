@@ -11,11 +11,11 @@
 /* Styling for the banner display */
 .banner-display {
   color: white;
-  background: #0d21a1;
+  background: #4770db;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
-  padding: 18px;
+  padding: 16px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -33,16 +33,16 @@ body {
 }
 
 /* Logo Styling */
-.main-header > div {
+/* .main-header > div {
   display: inline-block;
   margin-left: 80px;
-}
+} */
 
 .main-brand__logo {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 60px;
-  color: rgb(14, 27, 77);
+  /* text-decoration: none; */
+  /* font-weight: bold; */
+  /* font-size: 60px; */
+  /* color: #0e1b4d; */
   vertical-align: middle;
 }
 
@@ -52,7 +52,7 @@ body {
   width: 100%;
   text-align: center;
   vertical-align: middle;
-  width: calc(100% - 365px);
+  width: calc(100% - 405px);
 }
 
 /* navlink styling */
@@ -85,14 +85,18 @@ body {
   display: inline-block;
   height: 100px;
   width: 100px;
-  background: #0d21a1;
+  /* background: #0d21a1; */
   border-radius: 50%;
   vertical-align: middle;
   margin: 20px 0;
 }
 
+.img-media__icon {
+  width: 20px;
+}
+
 .TrendingProduct {
-  color: #0d21a1;
+  color: #0e1b4d;
   font-size: 32px;
   padding: 12px;
 }
