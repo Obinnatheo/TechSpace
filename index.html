@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechSpot</title>
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -16,33 +20,35 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div>
+    <div class="site-banner">
       <p>
         Great news! You can now enjoy free nationwide delivery on all orders
         that exceed ₦200,000
       </p>
     </div>
-    <header>
+    <header class="header-home">
       <!-- website logo -->
-      <div>
-        <a href="index.html">TechSpot</a>
+      <div class="main-logo">
+        <a href="index.html" class="main-logo__brand">TechSpot</a>
       </div>
       <!-- Navigation list -->
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Laptops</a></li>
-          <li><a href="">Phones & Tablets</a></li>
-          <li><a href="about.html">About Us</a></li>
+      <nav class="main-nav">
+        <ul class="main-nav__lists">
+          <li class="main-nav__list"><a href="./index.html">Home</a></li>
+          <li class="main-nav__list"><a href="laptop.html">Laptops</a></li>
+          <li class="main-nav__list"><a href="phone.html">Phones</a></li>
+          <li class="main-nav__list"><a href="gadget.html">Gadget</a></li>
+          <li class="main-nav__list"><a href="tablet.html">Tablets</a></li>
+          <li class="main-nav__list"><a href="about.html">About Us</a></li>
         </ul>
       </nav>
       <!-- SVG icons -->
-      <div>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-regular fa-user"></i>
+      <div class="icons-toolbars">
+        <i class="fa-solid fa-magnifying-glass icons-toolbar"></i>
+        <i class="fa-regular fa-user icons-toolbar"></i>
       </div>
     </header>
     <main>
@@ -116,9 +122,8 @@
           <a href="#">Lorem, ipsum.</a>
           <span>$12000000</span>
         </div>
-      
       </div>
-     
+
       <a href="#">View all</a>
       <!-- Apple Computer section -->
       <div>
