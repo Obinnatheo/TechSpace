@@ -56,10 +56,15 @@ body {
   font-weight: bold;
 }
 
-.main-nav__lists > .main-nav__list:link {
+.main-nav__list a {
   text-decoration: none;
 }
 
+.icons-toolbar{
+  font-size: 27px;
+  margin: 8px;
+  padding: 8px;
+}
 .social-media__links{
   display: flex;
   align-items: center;
