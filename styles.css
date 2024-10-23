@@ -60,12 +60,12 @@ body {
   text-decoration: none;
 }
 
-.icons-toolbar{
+.icons-toolbar {
   font-size: 27px;
   margin: 8px;
   padding: 8px;
 }
-.social-media__links{
+.social-media__links {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,9 +73,75 @@ body {
   padding: 60px 20px;
 }
 
-.social-media__link{
+.social-media__link {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   background-color: #0e1b4d;
+}
+
+.header-products{
+  color: #0e1b4d;
+}
+
+.product--line1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.product-laptop{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product--line1 img {
+  width: 300px;
+  height: 300px;
+}
+
+.product-title, .product-price{
+  /* display: block; */
+}
+
+
+
+.main-footer{
+  background: #0e1b4d;
+  text-align: center;
+  padding: 64px 128px;
+}
+
+.main-footer p{
+  color: #fff;
+}
+
+.form-header {
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+.main-footer p {
+  color: #a7abbe;
+}
+
+.main-footer__link {
+  display: inline-block;
+}
+
+.main-footer__link a,
+.main-footer__link a:active {
+  color: #a7abbe;
+}
+.main-footer__link a:visited,
+.main-footer__link a:hover {
+  color: #a7abbe;
+}
+
+.year{
+  color: #a7abbe;
 }
